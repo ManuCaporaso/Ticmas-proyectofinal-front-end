@@ -1,0 +1,307 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+body {
+    background-color: #ffffff;
+}
+
+/* HEADER */
+
+header {
+    position: sticky;
+    top:0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #9acff1;
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+nav a {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding:  10px 20px;
+    color: black;
+}
+
+a:hover {
+    background-color: #ffffff;
+}
+
+section {
+    margin: 50px 0;
+}
+
+
+
+/*HERO*/
+
+section#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9acff1;
+}
+
+section#hero img{
+    height: 200px;
+    width: 200px;
+}
+
+section#hero h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+
+}
+
+section#hero h2 {
+    margin: 5px;
+    font-size: 2.5rem;
+}
+
+/*HABILIDADES*/
+
+section#skills {
+    background-color: #9acff1;
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .valoracion {width: 87%;color: #000000; background-color: #1fc4da;text-align: end}
+  .velocidad {width: 92%;color: #000000; background-color: #2196F3;text-align: end}
+  .regates {width: 92%;color: #000000; background-color: #ff1100;text-align: end}
+  .tiros {width: 84%;color: #000000; background-color: #9900ff;text-align: end}
+  .pase {width: 82%;color: #000000; background-color: #56fdfd;text-align: end}
+  .fisico {width: 58%;color: #000000; background-color: #ff00dd;text-align: end}
+  .defensa {width: 20%;color: #000000; background-color: #00ff0d;text-align: end}
+
+  #skills h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  #skills img {
+    width: 15%;
+    height: 15%;
+    margin-left: 40%;
+    margin-bottom: 30px;
+}
+
+#skills p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+/*PROYECTOS*/
+
+section#proyectos {
+    background-color: #9acff1;
+}
+
+section#proyectos h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+section#proyectos h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.lista-proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.detalle-proyectos {
+    border: 5px solid black;
+    width: 300px;
+    height:auto;
+    margin:15px;
+    border-radius:15px;
+}
+
+.detalle-proyectos img {
+    width: 100%;
+    height: 70%;
+    
+}
+
+.detalle-proyectos a {
+    margin: 80px;
+}
+
+/*ESTADISTICAS */
+
+section#estadisticas {
+    background-color: #9acff1;
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+     margin-bottom: 30px;
+    }
+  
+  
+  .estadisticas {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .partidos {width: 90%;color: #000000; background-color: #1fc4da; text-align: end;}
+  .goles {width: 80%;color: #000000; background-color: #2196F3;text-align: end;}
+  .asistencias {width: 40%;color: #000000; background-color: #ff1100;text-align: end;}
+  .hattrick {width: 20%;color: #000000s; background-color: #9900ff;text-align: end;}
+
+  #estadisticas h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+#estadisticas iframe {
+    margin-left: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#estadisticas p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+/*CONTACTO*/
+
+section#contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9acff1;
+    
+}
+
+section#contacto h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+section#contacto div {
+    display: flex;
+    font-size: 30px;
+    padding: 20px;
+}
+
+label {
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+input {
+    margin-left: 50px;
+}
+
+textarea {
+    resize: none;
+    margin-left: 50px;
+}
+
+button {
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+/*FOOTER*/
+
+section#redes-sociales {
+
+background-color: #9acff1;
+}
+
+footer {
+    background-color: #40c0cb;
+}
+.logo2 img {
+    height: 180px;
+    width: 180px;
+    display: block;
+    margin: auto;
+    
+}
+
+.logo2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.redes{
+    margin-left: 780PX;
+    margin-bottom: 50px;
+}
+
+.redes img {
+    height: 80px;
+    width: 80px;
+    flex-direction: row;
+    margin-left: 40px;
+    
+}
+
+.texto2 a {
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+    text-shadow: 3px 3px rgb(22, 204, 250);
+    margin-left: 45%;
+}
+
+.link {
+    margin-bottom: 610px;
+}
+
+.texto2 h4 {
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+}
